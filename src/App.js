@@ -54,6 +54,7 @@ function App() {
        return {
          ...styles,
          backgroundColor: data.color,
+         color:'white'
        };
      },
      multiValueLabel: (styles, { data }) => {
